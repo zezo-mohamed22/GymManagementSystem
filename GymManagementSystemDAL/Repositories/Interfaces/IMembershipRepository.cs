@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GymManagementSystemDAL.Repositories.Interfaces
 {
-    public interface IMembershipRepository 
+    public interface IMembershipRepository  : IGenericRepository<Membership>
     {
         Task<List<Membership>> GetMembershipsWithMembersAndPlansAsync(Expression<Func<Membership,bool>>? predicate,CancellationToken ct );
     }

@@ -53,6 +53,21 @@ namespace GymManagementSystemDAL.Repositories.Classes
             return entities;
         }
 
+        public async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>>? predicate = null, bool tracking = false, CancellationToken ct = default)
+        {
+
+            if (predicate is null)
+            {
+                var entities = tracking ? await _dbSet.ToListAsync(ct) : await _dbSet.AsNoTracking().ToListAsync(ct);
+                return entities;
+            }
+            else
+            {
+                var entities = tracking ? await _dbSet.ToListAsync(ct) : await _dbSet.AsNoTracking().ToListAsync(ct);
+                return entities;
+            }
+        }
+
         public async Task<T?> GetByIdAsync(int id, CancellationToken ct = default)
         {
             var entity = await _dbSet.FindAsync(id, ct);
