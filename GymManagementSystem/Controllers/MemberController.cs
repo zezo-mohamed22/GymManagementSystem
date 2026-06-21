@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace GymManagementSystemPL.Controllers
 {
-    [Authorize(Roles = "SuperAdmin")]
+    //[Authorize(Roles = "SuperAdmin")]
 
     public class MembersController : Controller
     {

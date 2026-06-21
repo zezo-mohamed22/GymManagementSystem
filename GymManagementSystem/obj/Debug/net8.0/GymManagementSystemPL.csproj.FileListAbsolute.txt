@@ -90,3 +90,4 @@ C:\Back-end\GymManagementSystem\GymManagementSystem\bin\Debug\net8.0\Microsoft.A
 C:\Back-end\GymManagementSystem\GymManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Back-end\GymManagementSystem\GymManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Back-end\GymManagementSystem\GymManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Back-end\GymManagementSystem\GymManagementSystem\obj\Debug\net8.0\GymManagementSystemPL.sourcelink.json

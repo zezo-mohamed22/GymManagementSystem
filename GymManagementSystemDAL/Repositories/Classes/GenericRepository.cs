@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace GymManagementSystemDAL.Repositories.Classes
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity ,new()
+    public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity, new()
     {
         private readonly GymDbContext _dbContext;
         private readonly DbSet<T> _dbSet; 
@@ -29,6 +29,11 @@ namespace GymManagementSystemDAL.Repositories.Classes
         public async Task<bool> AnyAsync(Expression<Func<T, bool>> predicate, CancellationToken ct)
         {
              return await _dbSet.AnyAsync(predicate, ct);
+        }
+
+        public async Task<int> CountAsync(Expression<Func<T, bool>>? preducate = null , CancellationToken ct = default)
+        {
+            return  preducate is null ?await _dbSet.AsNoTracking().CountAsync(ct) :await _dbSet.AsNoTracking().CountAsync(ct);
         }
 
         public void DeleteAsync(T entity)

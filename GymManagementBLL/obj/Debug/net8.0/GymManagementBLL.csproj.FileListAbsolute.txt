@@ -13,3 +13,4 @@ C:\Back-end\GymManagementSystem\GymManagementBLL\obj\Debug\net8.0\GymManagementB
 C:\Back-end\GymManagementSystem\GymManagementBLL\obj\Debug\net8.0\refint\GymManagementBLL.dll
 C:\Back-end\GymManagementSystem\GymManagementBLL\obj\Debug\net8.0\GymManagementBLL.pdb
 C:\Back-end\GymManagementSystem\GymManagementBLL\obj\Debug\net8.0\ref\GymManagementBLL.dll
+C:\Back-end\GymManagementSystem\GymManagementBLL\obj\Debug\net8.0\GymManagementBLL.sourcelink.json

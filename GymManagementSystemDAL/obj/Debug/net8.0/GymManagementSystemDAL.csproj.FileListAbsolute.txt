@@ -12,3 +12,4 @@ C:\Back-end\GymManagementSystem\GymManagementSystemDAL\obj\Debug\net8.0\refint\G
 C:\Back-end\GymManagementSystem\GymManagementSystemDAL\obj\Debug\net8.0\GymManagementSystemDAL.pdb
 C:\Back-end\GymManagementSystem\GymManagementSystemDAL\obj\Debug\net8.0\GymManagementSystemDAL.genruntimeconfig.cache
 C:\Back-end\GymManagementSystem\GymManagementSystemDAL\obj\Debug\net8.0\ref\GymManagementSystemDAL.dll
+C:\Back-end\GymManagementSystem\GymManagementSystemDAL\obj\Debug\net8.0\GymManagementSystemDAL.sourcelink.json
